@@ -1,0 +1,32 @@
+/* home_style.css
+Student Name: Ramon J. Sapina
+Student ID: 301282055
+Date: 2023-06-27 */
+
+  
+    body {
+      background-color: black;
+      color: bisque;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .description {
+      text-align: justify;
+      margin-bottom: 20px;
+    }
+
+    .description h2 {
+      color: darkcyan;
+    }
+
+    .description img {
+      float: left;
+      margin-right: 20px;
+      max-width: 300px;
+      max-height: 300px;
+    }

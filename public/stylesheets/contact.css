@@ -1,0 +1,61 @@
+/* contact.css
+Student Name: Ramon J. Sapina
+Student ID: 301282055
+Date: 2023-06-27 */
+
+.btn {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit {background-color: #04AA6D;} /* Green */
+.submit:hover {background-color: #46a049;}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: bisque;
+}
+
+* {box-sizing: border-box;}
+
+.panel {
+  border-radius: 5px;
+  background-color: black;
+  padding: 20px;
+  margin: 20px auto;
+  width: 50%; /* Adjust the width as desired */
+  text-align: center;
+  border: 1px solid bisque; /* Add border */
+}
+
+.panel p {
+  margin: 0 0 10px 0; /* Remove bottom margin for paragraphs */
+}
+.container {
+  border-radius: 5px;
+  background-color: black;
+  padding: 20px;
+  margin: 0 auto;
+  width: 50%; /* Adjust the width as desired */
+  text-align: center;
+  border: 1px solid bisque; /* Add border */
+}
+
+.container label,
+.container input[type=submit] {
+  text-align: left;
+  display: block;
+}
+
+.container input[type=submit] {
+  margin-left: 0;
+}
+
+h3 {
+  text-align: center;
+}
+

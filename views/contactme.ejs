@@ -1,0 +1,41 @@
+<%- include partials/header.ejs %>
+<%- include partials/top_nav.ejs %>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/stylesheets/contact.css">
+</head>
+<body>
+<div class="panel">
+  <h3>Ramon J. Sapina</h3>
+  <p>Email: rsapina@my.centennialcollege.ca<br>Phone: +1 437-545-5095<br>Address: 701, 3091 Eglinton Avenue East, Scarborough, ON, M1J 2G1</p>
+
+</div>
+
+<div class="container">
+  <h3>You can contact Ramon Sapina by providing your information through this form. Thank you.</h3>
+
+  <form action="/home">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..." style="width: 100%; border: 1px solid #ccc; border-radius: 4px; padding: 12px; margin-top: 6px; margin-bottom: 16px; resize: vertical;">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..." style="width: 100%; border: 1px solid #ccc; border-radius: 4px; padding: 12px; margin-top: 6px; margin-bottom: 16px; resize: vertical;">
+
+    <label for="email">E-mail</label>
+    <input type="text" id="email" name="email" placeholder="your email address..." style="width: 100%; border: 1px solid #ccc; border-radius: 4px; padding: 12px; margin-top: 6px; margin-bottom: 16px; resize: vertical;">
+
+    <label for="mobile">Mobile</label>
+    <input type="text" id="mobile" name="mobile" placeholder="your mobile number..." style="width: 100%; border: 1px solid #ccc; border-radius: 4px; padding: 12px; margin-top: 6px; margin-bottom: 16px; resize: vertical;">
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="width: 100%; height:200px; border: 1px solid #ccc; border-radius: 4px; padding: 12px; margin-top: 6px; margin-bottom: 16px; resize: vertical;"></textarea>
+
+    <input type="submit" value="Submit" onclick="return alert('Form Submitted Successfully.')" style="background-color: #04AA6D; color: white; padding: 12px 20px; border: none; border-radius: 4px; cursor: pointer;">
+  </form>
+</div>
+
+</body>
+</html>

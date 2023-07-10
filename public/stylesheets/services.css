@@ -1,0 +1,61 @@
+/* services.css
+Student Name: Ramon J. Sapina
+Student ID: 301282055
+Date: 2023-06-27 */
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: black;
+      margin: 0;
+      padding: 0;
+    }
+
+    .skillset-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+      background-color: black;
+      color: bisque;
+    }
+
+    .skillset-container h1 {
+      color: white;
+      font-weight: bold;
+    }
+
+    .skill-card {
+      width: 200px;
+      margin: 20px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      text-align: center;
+      background-color: #f9f9f9;
+      color: black;
+      cursor: pointer;
+      transition: box-shadow 0.3s ease;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    }
+
+    .skill-card:hover {
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+      background-color: aqua;
+
+    }
+
+    .skill-card img {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 10px;
+    }
+
+    .skill-card h3 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .skill-card p {
+      font-size: 14px;
+      color: black;
+    }

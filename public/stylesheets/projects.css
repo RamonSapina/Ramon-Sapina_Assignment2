@@ -1,0 +1,60 @@
+/* projects.css
+Student Name: Ramon J. Sapina
+Student ID: 301282055
+Date: 2023-06-27 */
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: white;
+      margin: 0;
+      padding: 0;
+    }
+
+    .projects-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      background-color: black;
+    }
+
+    .project-card {
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      padding: 20px;
+    }
+
+    .project-card img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+
+    .project-card h3 {
+      margin-top: 10px;
+      font-size: 20px;
+      color:cornflowerblue;
+    }
+
+    .project-card h1 {
+      margin-top: 100px;
+      font-size: 30px;
+      vertical-align: middle;
+      color: bisque;
+    }
+
+    .project-card p {
+      margin-top: 10px;
+      font-size: 14px;
+      color: bisque;
+    }
+
+    .project-card a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 16px;
+      background-color: #4CAF50;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+    }

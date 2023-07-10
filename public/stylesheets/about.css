@@ -1,0 +1,84 @@
+/* about.css
+Student Name: Ramon J. Sapina
+Student ID: 301282055
+Date: 2023-06-27 */
+
+    body {
+      background-color: black;
+      color: bisque;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+
+    .about-section {
+      width: 60%;
+      margin-right: 40px;
+    }
+
+    .profile-image {
+      width: 40%;
+      object-fit: cover;
+      cursor: pointer;
+    }
+
+    .about-section h2 {
+      font-size: 65px;
+      color: aquamarine;
+    }
+
+    .work-section {
+      margin-top: -60px;
+    }
+
+    .work-section h2 {
+      font-size: 18px;
+      font-weight: bold;
+      color: darkcyan;
+    }
+
+    .work-section h3 {
+      font-size: 20px;
+      font-weight: bold;
+      color: dimgray;
+      margin-bottom: 10px;
+    }
+
+    .work-section h4 {
+      font-size: 40px;
+      font-weight: bold;
+      color: aquamarine;
+      margin-top: 20px;
+    }
+
+    .work-section ul {
+      padding-left: 0;
+    }
+
+    .work-section li {
+      margin-bottom: 10px;
+    }
+
+    .work-section p {
+      margin: 0;
+    }
+
+    .pdf-link {
+      flex: 0;
+
+
+    }
+
+    .pdf-link a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: darkcyan;
+      color: bisque;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+
