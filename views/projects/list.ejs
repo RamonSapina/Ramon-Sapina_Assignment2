@@ -1,0 +1,33 @@
+<%- include ../partials/header.ejs %>
+
+<%- include ../partials/top_nav.ejs %>
+ 
+<main class="container">
+  <br>
+  <a href="/projects/add" class="btn btn-primary">Add Project</a>
+
+    <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+              <th scope="col">Title</th>
+              <th scope="col">Description</th>
+              <th scope="col">Project Date</th>
+              <th scope="col">Update</th>
+
+            </tr>
+          </thead>
+          <tbody>
+            <% for (let index = 0; index < ProjectList.length; index++) { %>
+                <tr>
+                    <td><%= ProjectList[index].Title %></td>
+                    <td><%= ProjectList[index].Description %></td>
+                    <td><%= ProjectList[index].Date %></td>
+
+                    <td>
+                        <a href="/projects/update/<%= ProjectList[index].id %>" class="btn btn-info btn-sm"><i class="fa-solid fa-file-pen fa-lg"></i> Update</a>
+                      <td>    
+                </tr>
+            <% } %>
+          </tbody>
+    </table>
+</main>

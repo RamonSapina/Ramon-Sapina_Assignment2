@@ -16,24 +16,25 @@
 
 <div class="container">
   <h3>You can contact Ramon Sapina by providing your information through this form. Thank you.</h3>
-
+  <form class = "form" method="POST">
   <form action="/home">
     <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..." style="width: 100%; border: 1px solid #ccc; border-radius: 4px; padding: 12px; margin-top: 6px; margin-bottom: 16px; resize: vertical;">
+    <input type="text" id="pFname" name="pFname" placeholder="Your name..." style="width: 100%; border: 1px solid #ccc; border-radius: 4px; padding: 12px; margin-top: 6px; margin-bottom: 16px; resize: vertical;">
 
     <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..." style="width: 100%; border: 1px solid #ccc; border-radius: 4px; padding: 12px; margin-top: 6px; margin-bottom: 16px; resize: vertical;">
+    <input type="text" id="pLname" name="pLname" placeholder="Your last name..." style="width: 100%; border: 1px solid #ccc; border-radius: 4px; padding: 12px; margin-top: 6px; margin-bottom: 16px; resize: vertical;">
 
     <label for="email">E-mail</label>
-    <input type="text" id="email" name="email" placeholder="your email address..." style="width: 100%; border: 1px solid #ccc; border-radius: 4px; padding: 12px; margin-top: 6px; margin-bottom: 16px; resize: vertical;">
+    <input type="text" id="pEmail" name="pEmail" placeholder="your email address..." style="width: 100%; border: 1px solid #ccc; border-radius: 4px; padding: 12px; margin-top: 6px; margin-bottom: 16px; resize: vertical;">
 
     <label for="mobile">Mobile</label>
-    <input type="text" id="mobile" name="mobile" placeholder="your mobile number..." style="width: 100%; border: 1px solid #ccc; border-radius: 4px; padding: 12px; margin-top: 6px; margin-bottom: 16px; resize: vertical;">
+    <input type="text" id="pMobile" name="pMobile" placeholder="your mobile number..." style="width: 100%; border: 1px solid #ccc; border-radius: 4px; padding: 12px; margin-top: 6px; margin-bottom: 16px; resize: vertical;">
 
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="width: 100%; height:200px; border: 1px solid #ccc; border-radius: 4px; padding: 12px; margin-top: 6px; margin-bottom: 16px; resize: vertical;"></textarea>
+    <label for="message">Message</label>
+    <textarea id="message" name="pMessage" placeholder="Write something.." style="width: 100%; height:200px; border: 1px solid #ccc; border-radius: 4px; padding: 12px; margin-top: 6px; margin-bottom: 16px; resize: vertical;"></textarea>
 
-    <input type="submit" value="Submit" onclick="return alert('Form Submitted Successfully.')" style="background-color: #04AA6D; color: white; padding: 12px 20px; border: none; border-radius: 4px; cursor: pointer;">
+    <button type="submit" class="btn btn-primary" onclick="return alert('Form Submitted Successfully.')" style="background-color: #04AA6D; color: white; padding: 12px 20px; border: none; border-radius: 4px; cursor: pointer;">Submit</button>
+  </form>
   </form>
 </div>
 
